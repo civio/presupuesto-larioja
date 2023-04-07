@@ -1,0 +1,20 @@
+# Datos de IPC del INE. Medias anuales de IPC para La Rioja, índice general:
+#   https://www.ine.es/jaxiT3/Tabla.htm?t=50913&L=0
+#
+# Las tasas de inflación se refieren a la media de las tasas interanuales durante los 12
+# meses del año. Esta media es calculada por el INE y publicada en la dirección indicada.
+# La aplicación calcula internamente un índice de inflación a partir de estas tasas, tal que:
+#    Indice Año Actual = 100
+#    Indice Año N-1 = Indice Año N / (1+Inflación Año N)
+#
+# Nota: los presupuestos de un año X se ajustan con el índice de la inflación del año anterior.
+# Por tanto el índice del año actual no se usa. De hecho sólo se conoce cuando termina el año.
+#
+2016,-0.4
+2017,1.9
+2018,1.5
+2019,0.9
+2020,-0.6
+2021,3.2
+2022,8.9
+2023,0
