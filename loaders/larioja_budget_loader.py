@@ -65,8 +65,8 @@ class LaRiojaBudgetLoader(SimpleBudgetLoader):
         # Expenses
         if is_expense:
             # Institutional code
-            ic_code = line[mapper.ic_code].strip()
-            ic_code = '000' # FIXME
+            # The code is 4-6 characters long, but we ignore anything after the 4th character.
+            ic_code = (line[mapper.ic_code].strip())[0:4]+'0'
 
             # Functional code
             fc_code = line[mapper.fc_code].strip()
@@ -75,7 +75,7 @@ class LaRiojaBudgetLoader(SimpleBudgetLoader):
         else:
             # We don't have institutional or functional codes in income
             fc_code = None
-            ic_code = '000'
+            ic_code = '00000'
 
         return {
             'is_expense': is_expense,
@@ -83,6 +83,9 @@ class LaRiojaBudgetLoader(SimpleBudgetLoader):
             'fc_code': fc_code,
             'ec_code': ec_code,
             'ic_code': ic_code,
+            'ic_institution': ic_code[0:2],
+            'ic_section': ic_code[0:4],
+            'ic_department': ic_code,
             'item_number': item_number,
             'description': description,
             'amount': amount
