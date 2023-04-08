@@ -22,7 +22,7 @@ G,7,,,Transferencias de capital
 G,8,,,Activos financieros
 G,9,,,Pasivos financieros
 #
-# Artículos de Castilla-La Mancha
+# Artículos de La Rioja
 #
 # Ingresos
 I,1,0,,Sobre la renta
@@ -59,49 +59,49 @@ I,9,1,,Préstamos recibidos en moneda nacional
 # Gastos
 G,1,0,,Altos cargos
 G,1,1,,Personal eventual
-G,1,2,,Funcionarios (excepto docente y de instituciones sanitarias)
-G,1,3,,Laborales (excepto de instituciones sanitarias)
+G,1,2,,Funcionarios
+G,1,3,,Laborales
+G,1,4,,Otro personal
 G,1,5,,Incentivos al rendimiento
 G,1,6,,"Cuotas, prestaciones y gastos sociales a cargo del empleador"
-G,1,7,,Personal docente
-G,1,8,,Personal de instituciones sanitarias
+G,1,7,,Atenciones diversas
+G,1,8,,Personal docente
+G,1,9,,Personal funcionario y estatuario del Servicio Riojano de Salud
 G,2,0,,Arrendamientos y cánones
 G,2,1,,"Reparaciones, mantenimiento y conservación"
 G,2,2,,"Materiales, suministros y otros"
 G,2,3,,Indemnizaciones por razón del servicio
-G,2,4,,Prestación de servicios sociales con medios ajenos
-G,2,5,,Prestación asistencia sanitaria con medios ajenos
-G,3,0,,De deuda pública
-G,3,1,,De préstamos en moneda nacional
-G,3,3,,De depósitos fianzas y otros
-G,4,0,,A la Junta de Comunidades Castilla-La Mancha
-G,4,1,,A organismos autónomos de la Junta
-G,4,2,,A entidades públicas de la Junta
-G,4,3,,"A la administración del Estado, OO.AA., empresas públicas y otros entes públicos"
-G,4,4,,A la Seguridad Social
+G,2,5,,Asistencia sanitaria con medios ajenos
+G,3,0,,De deuda pública interior
+G,3,1,,De préstamos del interior
+G,3,4,,"De depósitos, fianzas y otros"
+G,4,1,,A organismos autónomos de la Comunidad Autónoma de La Rioja
+G,4,2,,Al Estado
+G,4,3,,A entidades públicas empresariales de la Comunidad Autónoma de La Rioja
+G,4,4,,Al resto del sector público de la Comunidad Autónoma de La Rioja
 G,4,5,,A comunidades autónomas
 G,4,6,,A corporaciones locales
 G,4,7,,A empresas privadas
-G,4,8,,A familias e instituciones sin fin de lucro
+G,4,8,,A familias e instituciones sin fines de lucro
 G,4,9,,Al exterior
-G,5,0,,Dotación fondo de contingencia y otros imprevistos
-G,5,2,,Otros imprevistos
-G,6,0,,Proyectos de inversión nueva
-G,6,1,,Proyectos de inversión de reposición
+G,5,0,,Fondo de contingencia
+G,6,0,,Inversión nueva en infraestructura y bienes destinados al uso general
+G,6,1,,Inversión de reposición en infraestructura y bienes destinados al uso general
 G,6,2,,Inversión nueva asociada al funcionamiento operativo de los servicios
-G,6,9,,Inversión nueva gestionada para otros entes públicos
-G,7,2,,A entidades públicas de la Junta
-G,7,3,,"A la administración del Estado, OO.AA., empresas públicas y otros entes públicos"
-G,7,4,,A la Seguridad Social
+G,6,3,,Inversión de reposición asociada al funcionamiento operativo de los servicios
+G,6,4,,Gasto de inversiones de caracter inmaterial
+G,6,5,,Gasto de inversiones en patrimonio histórico
+G,6,6,,Inversiones gestionadas para otros entes públicos
+G,7,3,,A entidades públicas empresariales de la Comunidad Autónoma de La Rioja
+G,7,4,,Al resto del sector público de la Comunidad Autónoma de La Rioja
 G,7,6,,A corporaciones locales
 G,7,7,,A empresas privadas
-G,7,8,,A familias e instituciones sin fin de lucro
-G,8,2,,Concesión de préstamos
-G,8,4,,Acciones, obligaciones y bonos
-G,9,0,,Amortización de deuda
-G,9,1,,Amortización de préstamos en moneda nacional
-G,9,2,,Amortización de préstamos en moneda extrajera
-G,9,3,,Devolución depósitos
+G,7,8,,A familias e instituciones sin fines de lucro
+G,8,2,,Concesión de préstamos al sector público
+G,8,3,,Concesión de préstamos fuera del sector público
+G,8,5,,Adquisición de acciones dentro del sector público
+G,9,0,,Amortización de deuda pública interior
+G,9,1,,Amortización de préstamos del interior
 #
 # Conceptos de Castilla-La Mancha
 #
