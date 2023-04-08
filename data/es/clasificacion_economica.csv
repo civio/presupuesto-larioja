@@ -36,8 +36,8 @@ I,2,8,,Otros impuestos indirectos
 I,3,0,,Venta de bienes
 I,3,1,,Prestación de servicios
 I,3,2,,Tasas
-I,3,3,,XXXXX
-I,3,5,,XXXXX
+I,3,3,,Tasas afectadas en decretos de transferencias
+I,3,5,,Ingresos procedentes de prestaciones de asistencia sanitaria
 I,3,8,,Reintegros de operaciones corrientes
 I,3,9,,Otros ingresos
 I,4,0,,De la Administración del Estado
@@ -54,7 +54,7 @@ I,7,6,,De corporaciones locales
 I,7,9,,Del exterior
 I,8,2,,Reintegro de préstamos del sector público
 I,8,3,,Reintegro de préstamos fuera del sector público
-I,8,6,,XXXXX
+I,8,6,,Remuneración préstamos y créditos avalados
 I,9,1,,Préstamos recibidos en moneda nacional
 # Gastos
 G,1,0,,Altos cargos
@@ -75,6 +75,7 @@ G,2,5,,Asistencia sanitaria con medios ajenos
 G,3,0,,De deuda pública interior
 G,3,1,,De préstamos del interior
 G,3,4,,"De depósitos, fianzas y otros"
+G,4,0,,A la Administración General de la Comunidad Autónoma de La Rioja
 G,4,1,,A organismos autónomos de la Comunidad Autónoma de La Rioja
 G,4,2,,Al Estado
 G,4,3,,A entidades públicas empresariales de la Comunidad Autónoma de La Rioja
@@ -92,6 +93,7 @@ G,6,3,,Inversión de reposición asociada al funcionamiento operativo de los ser
 G,6,4,,Gasto de inversiones de caracter inmaterial
 G,6,5,,Gasto de inversiones en patrimonio histórico
 G,6,6,,Inversiones gestionadas para otros entes públicos
+G,7,2,,Al Estado
 G,7,3,,A entidades públicas empresariales de la Comunidad Autónoma de La Rioja
 G,7,4,,Al resto del sector público de la Comunidad Autónoma de La Rioja
 G,7,6,,A corporaciones locales
@@ -184,6 +186,7 @@ G,1,3,1,LABORAL TEMPORAL
 G,1,3,2,RETRIBUCIONES EN ESPECIE
 G,1,3,4,RERIBUCION TRIBUNALES, OPOSICIONES Y CONCURSOS
 G,1,4,1,OTRO PERSONAL
+G,1,5,0,PRODUCTIVIDAD
 G,1,5,1,GRATIFICACIONES
 G,1,6,0,CUOTAS SOCIALES
 G,1,6,2,GASTOS SOCIALES DE FUNCIONARIOS Y PERSONAL NO LABORAL
@@ -244,16 +247,17 @@ G,3,1,9,GASTOS FORMALIZ, MOD. Y CANCELACIÓN
 G,3,4,2,INTERESES DE DEMORA
 G,3,4,9,COMPRA OPCIONES
 G,3,4,9,OTROS GASTOS FINANCIEROS
+G,4,0,1,A ORGANISMOS AUTÓNOMOS DE LA COMUNIDAD AUTÓNOMA DE LA RIOJA
 G,4,1,0,A ORGANISMOS AUTÓNOMOS
-G,4,2,0,A LA ADMINISTRACION GENERAL DEL ESTADO
-G,4,2,3,A ENTIDADES PUBLICAS EMPRESARIALES Y OTROS ORGANISMOS PUBLICOS
+G,4,2,0,A LA ADMINISTRACIÓN GENERAL DEL ESTADO
+G,4,2,3,A ENTIDADES PUBLICAS EMPRESARIALES Y OTROS ORGANISMOS PÚBLICOS
 G,4,2,6,A CONSORCIOS
 G,4,3,0,ENTIDADES PÚBLICAS EMPRESARIALES DE LA COMUNIDAD AUTÓNOMA DE LA RIOJA
 G,4,4,0,A SOCIEDADES PUBLICAS
 G,4,4,1,A FUNDACIONES
 G,4,4,2,A CONSORCIOS
-G,4,4,7,OTROS ENTES SP.
-G,4,4,8,OTROS ENTES SP SEGÚN CN
+G,4,4,7,OTROS ENTES DEL SECTOR PÚBLICO
+G,4,4,8,OTROS ENTES DEL SECTOR PÚBLICO SEGÚN CN
 G,4,4,9,UNIVERSIDADES CAR
 G,4,5,0,A COMUNIDADES AUTÓNOMAS
 G,4,6,1,A AYUNTAMIENTOS
@@ -366,11 +370,14 @@ G,6,6,1,INFRAESTRUCTURAS Y BIENES DESTINADOS AL USO GENERAL
 G,6,6,3,MAQUINARIA, INSTALACIONES Y UTILLAJE
 G,6,6,6,EQUIPOS PARA PROCESOS DE INFORMACION
 G,6,6,9,OTROS ACTIVOS MATERIALES
+G,7,2,0,A LA ADMINISTRACIÓN GENERAL DEL ESTADO
+G,7,2,3,A ENTIDADES PUBLICAS EMPRESARIALES Y OTROS ORGANISMOS PÚBLICOS
 G,7,3,0,A ENTIDADES PÚBLICAS EMPRESARIALES DE LA COMUNIDAD AUTÓNOMA DE LA CAR
 G,7,4,0,A SOCIEDADES PÚBLICAS
 G,7,4,1,A FUNDACIONES
 G,7,4,2,A CONSORCIOS
-G,7,4,7,OTROS ENTES SP
+G,7,4,7,OTROS ENTES DEL SECTOR PÚBLICO
+G,7,4,8,OTROS ENTES DEL SECTOR PÚBLICO SEGÚN CN
 G,7,4,9,UNIVERSIDADES CAR
 G,7,6,1,A AYUNTAMIENTOS
 G,7,6,2,A MANCOMUNIDADES DE MUNICIPIOS
@@ -401,6 +408,7 @@ G,7,8,7,FAMILIAS/INST SIN FIN DE LUCRO
 G,8,2,0,PRESTAMOS A CORTO PLAZO.
 G,8,3,0,PRESTAMOS A CORTO PLAZO
 G,8,3,1,PRESTAMOS A LARGO PLAZO
+G,8,4,0,DEPÓSITOS
 G,8,5,0,COMPRA DE ACCIONES DE SOCIEDADES AUTONÓMICAS
 G,9,0,1,AMORTIZACION DE DEUDA PUBLICA A LARGO PLAZO
 G,9,1,1,AMORTIZ. DE PRESTAMOS A LARGO PLAZO DE ENTES DEL SEC.PÚBL.
