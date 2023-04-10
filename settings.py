@@ -150,50 +150,24 @@ FEATURED_PROGRAMMES = ['3121', '3225', '3223', '2323', '2322', '4611', '4712']
 OVERVIEW_USE_NEW_VIS = True
 
 OVERVIEW_INCOME_NODES = [
-                          {
-                            'nodes': [['11', '113']],
-                            'label.ca': 'Sobre immobles urbans',
-                            'label.es': 'Sobre inmuebles urbanos',
-                            'link_id': '11'
-                          },
-                          {
-                            'nodes': [['11', '115']],
-                            'label.es': 'Impuesto sobre vehículos de tracción mecánica',
-                            'label.ca': 'Impost sobre vehicles de tracció mecànica',
-                            'link_id': '11'
-                          },
-                          {
-                            'nodes': [['11', '112'], ['11', '116']],
-                            'label.ca': 'Resta impostos directes',
-                            'label.es': 'Resto de impuestos directos',
-                            'link_id': '11'
-                          },
-                          {
-                            'nodes': '42',
-                            'label.ca': 'De l\'Administració de l\'Estat',
-                            'label.es': 'De la Administración del Estado',
-                            'link_id': '42'
-                          },
-                          {
-                            'nodes': ['45', '75'],
-                            'label.ca': 'De comunitats autònomes',
-                            'label.es': 'De Comunidades Autónomas'
-                          },
-                          '13',
-                          {
-                            'nodes': [['30', '302']],
-                            'label.ca': 'Servei de recollida d\'escombraries',
-                            'label.es': 'Servicio de recogida de basuras',
-                            'link_id': '30'
-                          },
-                          {
-                            'nodes': ['55', '31', '32', '33', '34', '38', '39'],
-                            'label.ca': 'Taxes, preus públics i altres ingressos',
-                            'label.es': 'Tasas, concesiones y otros ingresos'
-                          },
-                        ]
+    '10',
+    '40',
+    '23',
+    {
+        'nodes': ['24'],
+        'label': 'Impuestos especiales',
+        'link_id': '24',
+    },
+    {
+        'nodes': ['11'],
+        'label': 'De la administración del Estado (cap. 4)',
+        'link_id': '11',
+    },
+    '22',
+    '49',
+]
 
-OVERVIEW_EXPENSE_NODES = ['16', '13', '92', '15', '33', '23', '17', '32', '93']
+OVERVIEW_EXPENSE_NODES = ['31', '32', '23', '46', '41', '45', '47']
 
 # How much padding between Sankey nodes. Default: 2 (Optional)
 # OVERVIEW_NODE_PADDING = 2
@@ -208,7 +182,7 @@ OVERVIEW_EXPENSE_NODES = ['16', '13', '92', '15', '33', '23', '17', '32', '93']
 # OVERVIEW_LABELS_FONT_SIZE_MAX = 38
 
 # Nodes ordered by amount by default. If set to True keeps the order defined in nodes array. Default: False (Optional)
-# OVERVIEW_FORCE_ORDER = False
+OVERVIEW_FORCE_ORDER = True
 
 # Show Subtotals panel in Overview. Default: False
 # SHOW_OVERVIEW_SUBTOTALS = True
