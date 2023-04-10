@@ -102,7 +102,7 @@ FACEBOOK_ID = ''
 
 # Google Analytics ID. Default: ''
 # In order to get the ID create a Google Analytics Acount in https://analytics.google.com/analytics/web/
-ANALYTICS_ID = ''
+ANALYTICS_ID = 'G-5BJMECZ22B'
 
 # Setup Data Source Budget link
 DATA_SOURCE_BUDGET = 'https://www.larioja.org/hacienda/es/presupuestos'
