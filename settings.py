@@ -151,7 +151,10 @@ OVERVIEW_USE_NEW_VIS = True
 
 OVERVIEW_INCOME_NODES = [
     '10',
-    '40',
+    {
+        'nodes': ['40', '70'],
+        'label': 'De la Administración del Estado',
+    },
     '23',
     {
         'nodes': ['24'],
@@ -159,12 +162,11 @@ OVERVIEW_INCOME_NODES = [
         'link_id': '24',
     },
     {
-        'nodes': ['11'],
-        'label': 'De la administración del Estado (cap. 4)',
-        'link_id': '11',
+        'nodes': ['79', '49'],
+        'label': 'Del exterior (UE)',
     },
-    '22',
-    '49',
+    '20',
+    '11',
 ]
 
 OVERVIEW_EXPENSE_NODES = ['31', '32', '23', '46', '41', '45', '47']
@@ -185,7 +187,7 @@ OVERVIEW_EXPENSE_NODES = ['31', '32', '23', '46', '41', '45', '47']
 OVERVIEW_FORCE_ORDER = True
 
 # Show Subtotals panel in Overview. Default: False
-# SHOW_OVERVIEW_SUBTOTALS = True
+SHOW_OVERVIEW_SUBTOTALS = True
 
 # Calculate budget indicators (True), or show/hide the ones hardcoded in HTML (False). Default: True.
 # CALCULATE_BUDGET_INDICATORS = False
