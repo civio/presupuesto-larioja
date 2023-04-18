@@ -10,18 +10,16 @@ $gray-light:            lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:          lighten($gray-base, 93.5%) !default; // #eee
 $gray-lightest:         lighten($gray-base, 96%) !default;
 
-// $text-color:            #414141;
+
 $text-color:            #46535b;
 
-// $brand-primary:         #002e23; // --c-verde-1 (dark green)
-// $brand-secondary:       #538d1c; // --c-verde-4 (light green)
 $brand-primary:         #538d1c; // --c-verde-4 (light green)
-$brand-secondary:       #002e23; // --c-verde-1 (dark green)
-$brand-terciary:        #ec752e; // --c-naranja
+$brand-secondary:       #00695c; // --c-verde-1 (dark green)
+$brand-terciary:        #002e23; // --c-verde-1
 
-$brand-quaternary:     #ffaa00; // --c-warning
-$brand-quinary:        #3B464C; // specific for footer
-
+$brand-highlight-dark:  #ec752e; // --c-naranja
+$brand-highlight-light: #ffaa00; // --c-warning
+$brand-dark:            #3B464C; // specific for footer
 
 $link-color:            $brand-primary;
 $link-hover-color:      $link-color;
@@ -31,12 +29,12 @@ $link-hover-decoration: underline;
 // Typography
 // -------------
 
-$font-family-sans-serif:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif;
 $font-family-base:        $font-family-sans-serif;
 
-$font-weight-300:         300;
-$font-weight-400:         400;
+$font-weight-300:         400;
+$font-weight-400:         500;
 $font-weight-600:         600; 
 $font-weight-700:         700; 
 
@@ -76,7 +74,7 @@ $navbar-default-bg-hover: mix( $navbar-default-bg, white, 75% );
 // Navbar options text color
 $dvmi-navbar-color: mix( $brand-primary, white, 10% );
 
-$navbar-default-link-active-color:    $brand-primary;
+$navbar-default-link-active-color:    $brand-highlight-light;
 $navbar-default-link-active-bg:       $brand-terciary;
 
 
@@ -84,14 +82,15 @@ $navbar-default-link-active-bg:       $brand-terciary;
 // --------------
 
 $footer-color: white;
-$footer-bg: $brand-quinary;
+$footer-bg: $brand-dark;
 
 
 // Page Header
 // --------------
 
-$page-header-bg:            mix( $brand-secondary, white, 8% );
-$page-header-border-color:  mix( $brand-secondary, white, 70% );
+$page-header-bg:            #f5f5f6;
+$page-header-border-color:  $gray-lighter;
+
 
 
 // Panels
@@ -104,9 +103,11 @@ $panel-default-heading-bg:  $brand-secondary;
 // Buttons
 // --------------
 
-$btn-primary-color:              #fff;
-$btn-primary-bg:                 $brand-primary;
-$btn-primary-border:             $brand-primary;
+$btn-primary-color:              $brand-secondary;
+$btn-primary-color:              white;
+
+$btn-primary-bg:                 $brand-highlight-dark;
+$btn-primary-border:             $brand-highlight-dark;
 
 $btn-border-radius-base:         7px; 
 $btn-border-radius-large:        0;
@@ -197,5 +198,5 @@ $data-sources-color: $brand-terciary;
 // Sankey Viz
 // --------------
 
-$sankey-income-color:   $brand-primary;
+$sankey-income-color:   $brand-terciary;
 $sankey-expense-color:  complement($sankey-income-color);
