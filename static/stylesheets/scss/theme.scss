@@ -11,3 +11,11 @@
 .form-group {
   color: white!important;
 }
+
+// Improve glossary layout colors
+.icon-term {
+  color: $brand-highlight-dark;
+}
+.glossary-terms h3:before {
+  color: $brand-highlight-dark;
+}
