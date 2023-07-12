@@ -3,15 +3,11 @@ from budget_app.loaders import SimpleBudgetLoader
 
 
 expenses_mapping = {
-    # 'default': {},
-    '2022': { 'ic_code': 1, 'fc_code': 2, 'full_ec_code': 3, 'description': 23, 'forecast_amount': 40, 'actual_amount': 999 },
-    '2023': { 'ic_code': 6, 'fc_code': 21, 'full_ec_code': 36, 'description': 37, 'forecast_amount': 40, 'actual_amount': 999 },
+    'default': { 'ic_code': 1, 'fc_code': 6, 'full_ec_code': 1, 'description': 2, 'forecast_amount': 4, 'actual_amount': 5 },
 }
 
 income_mapping = {
-    # 'default': {},
-    '2022': { 'full_ec_code': 0, 'description': 11, 'forecast_amount': 13, 'actual_amount': 999 },
-    '2023': { 'full_ec_code': 1, 'description': 13, 'forecast_amount': 16, 'actual_amount': 999 },
+    'default': { 'full_ec_code': 1, 'description': 2, 'forecast_amount': 4, 'actual_amount': 999 },
 }
 
 
@@ -43,6 +39,10 @@ class LaRiojaBudgetLoader(SimpleBudgetLoader):
 
     # Parse an input line into fields
     def parse_item(self, filename, line):
+        # Skip header
+        if line[0]=='Descripcion':
+            return
+
         # Type of data
         is_expense = (filename.find('gastos.csv') != -1)
         is_actual = (filename.find('/ejecucion_') != -1)
@@ -50,15 +50,15 @@ class LaRiojaBudgetLoader(SimpleBudgetLoader):
         # Mapper
         mapper = BudgetCsvMapper(self.year, is_expense)
 
-        # Economic code
-        # Concepts are the firts three digits from the economic codes
-        # Item numbers are the last two digits from the economic codes (fourth and fifth digits)
-        full_ec_code = line[mapper.full_ec_code].strip()
+        # Economic code: the last six digits of the full UID
+        full_ec_code = line[mapper.full_ec_code][-6:]
+        # Concepts are the firts three digits
+        # Item numbers are the last two digits (fourth and fifth digits)
         ec_code = full_ec_code[:3]
         item_number = full_ec_code[-2:]
 
         # Description
-        description = line[mapper.description].strip().decode("iso-8859-1")
+        description = line[mapper.description].strip()
 
         # Parse amount
         amount = line[mapper.actual_amount if is_actual else mapper.forecast_amount]
@@ -68,10 +68,10 @@ class LaRiojaBudgetLoader(SimpleBudgetLoader):
         if is_expense:
             # Institutional code
             # The code is 4-6 characters long, but we ignore anything after the 4th character.
-            ic_code = (line[mapper.ic_code].strip())[0:4]+'0'
+            ic_code = (line[mapper.ic_code].strip())[5:9]+'0'
 
             # Functional code
-            fc_code = line[mapper.fc_code].strip()
+            fc_code = line[mapper.fc_code].strip()[:4]
 
         # Income
         else:
@@ -92,3 +92,6 @@ class LaRiojaBudgetLoader(SimpleBudgetLoader):
             'description': description,
             'amount': amount
         }
+
+    def _get_delimiter(self):
+        return ';'
