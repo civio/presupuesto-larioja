@@ -1,6 +1,4 @@
 # -*- coding: UTF-8 -*-
-# from django.conf.urls import patterns, url
-# from django.conf.urls.i18n import i18n_patterns
 
 MAIN_ENTITY_LEVEL = 'comunidad'
 
@@ -119,13 +117,6 @@ MAIN_ENTITY_PRIVACY_URL = 'https://web.larioja.org/politica-de-privacidad'
 
 # External URL for Cookies Policy (if empty we use out template page/cookies.html)
 COOKIES_URL = ''
-
-# We can define additional URLs applicable only to the theme. These will get added
-# to the project URL patterns list.
-# Must be needed to uncomment 3rd line in order to import i18n_patterns
-# EXTRA_URLS = i18n_patterns('presupuesto-base.views',
-#     url(r'^visita-guiada$', 'guidedvisit', name="guidedvisit"),
-# )
 
 
 # Welcome Settings
