@@ -3,11 +3,11 @@ from budget_app.loaders import SimpleBudgetLoader
 
 
 expenses_mapping = {
-    'default': { 'ic_code': 1, 'fc_code': 6, 'full_ec_code': 1, 'description': 2, 'forecast_amount': 4, 'actual_amount': 5 },
+    'default': { 'ic_code': 3, 'fc_code': 19, 'full_ec_code': 11, 'description': 12, 'forecast_amount': 21, 'actual_amount': 26 },
 }
 
 income_mapping = {
-    'default': { 'full_ec_code': 1, 'description': 2, 'forecast_amount': 4, 'actual_amount': 999 },
+    'default': { 'full_ec_code': 7, 'description': 8, 'forecast_amount': 9, 'actual_amount': 12 },
 }
 
 
@@ -40,7 +40,7 @@ class LaRiojaBudgetLoader(SimpleBudgetLoader):
     # Parse an input line into fields
     def parse_item(self, filename, line):
         # Skip header
-        if line[0]=='Descripcion':
+        if line[0]=='EJERCICIO':
             return
 
         # Type of data
@@ -50,28 +50,28 @@ class LaRiojaBudgetLoader(SimpleBudgetLoader):
         # Mapper
         mapper = BudgetCsvMapper(self.year, is_expense)
 
-        # Economic code: the last six digits of the full UID
-        full_ec_code = line[mapper.full_ec_code][-6:]
-        # Concepts are the firts three digits
+        # Economic code: we need to remove the hyphens
+        full_ec_code = line[mapper.full_ec_code].replace('-', '')
+        # Concepts are the first three digits
         # Item numbers are the last two digits (fourth and fifth digits)
         ec_code = full_ec_code[:3]
         item_number = full_ec_code[-2:]
 
         # Description
-        description = line[mapper.description].strip()
+        description = line[mapper.description].decode('latin-1')
 
         # Parse amount
         amount = line[mapper.actual_amount if is_actual else mapper.forecast_amount]
-        amount = self._parse_amount(amount)
+        amount = self._read_spanish_number(amount)
 
         # Expenses
         if is_expense:
             # Institutional code
             # The code is 4-6 characters long, but we ignore anything after the 4th character.
-            ic_code = (line[mapper.ic_code].strip())[5:9]+'0'
+            ic_code = (line[mapper.ic_code].replace('-', ''))+'0'
 
             # Functional code
-            fc_code = line[mapper.fc_code].strip()[:4]
+            fc_code = line[mapper.fc_code].replace('-', '')
 
         # Income
         else:

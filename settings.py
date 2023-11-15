@@ -69,7 +69,7 @@ BUDGET_LOADER = 'LaRiojaBudgetLoader'
 # BREAKDOWN_BY_UID = False
 
 # Include financial income/expenditures in overview and global policy breakdowns. Default: False
-# INCLUDE_FINANCIAL_CHAPTERS_IN_BREAKDOWNS = True
+INCLUDE_FINANCIAL_CHAPTERS_IN_BREAKDOWNS = True
 
 # Does the data includes a fifth functional classification level, subprogrammes?. Default: False
 # USE_SUBPROGRAMMES = True
@@ -98,7 +98,7 @@ LANGUAGES = (
 PLAUSIBLE_DOMAIN = 'larioja.dondevanmisimpuestos.es'
 
 # Setup Data Source Budget link
-DATA_SOURCE_BUDGET = 'https://www.larioja.org/hacienda/es/presupuestos'
+DATA_SOURCE_BUDGET = 'https://web.larioja.org/dato-abierto/busqueda-dato-abierto?searchBuscador=presupuesto'
 
 # Setup Data Source Population link
 DATA_SOURCE_POPULATION = 'https://www.ine.es/jaxiT3/Datos.htm?t=2853'
@@ -173,7 +173,7 @@ OVERVIEW_EXPENSE_NODES = ['31', '32', '23', '46', '41', '45', '47']
 OVERVIEW_FORCE_ORDER = True
 
 # Show Subtotals panel in Overview. Default: False
-SHOW_OVERVIEW_SUBTOTALS = True
+# SHOW_OVERVIEW_SUBTOTALS = True
 
 # Calculate budget indicators (True), or show/hide the ones hardcoded in HTML (False). Default: True.
 # CALCULATE_BUDGET_INDICATORS = False
