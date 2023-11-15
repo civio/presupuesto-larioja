@@ -65,6 +65,8 @@ class LaRiojaBudgetLoader(SimpleBudgetLoader):
 
         # Description
         description = line[mapper.description].decode('latin-1')
+        if description == 'X':
+            description = None  # Leave it empty so it can be populated with the economic category
 
         # Parse amount
         amount = line[mapper.actual_amount if is_actual else mapper.forecast_amount]
