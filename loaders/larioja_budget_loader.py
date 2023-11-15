@@ -1,4 +1,7 @@
 # -*- coding: UTF-8 -*-
+
+import os
+
 from budget_app.loaders import SimpleBudgetLoader
 
 
@@ -9,7 +12,6 @@ expenses_mapping = {
 income_mapping = {
     'default': { 'full_ec_code': 7, 'description': 8, 'forecast_amount': 9, 'actual_amount': 12 },
 }
-
 
 class BudgetCsvMapper:
     def __init__(self, year, is_expense):
@@ -32,6 +34,10 @@ class BudgetCsvMapper:
 
 
 class LaRiojaBudgetLoader(SimpleBudgetLoader):
+    # We override this to allow a different classification per year
+    def get_institutional_classification_path(self, path):
+        return os.path.join(path, 'clasificacion_organica.csv')
+
     # make year data available in the class and call super
     def load(self, entity, year, path, status):
         self.year = year

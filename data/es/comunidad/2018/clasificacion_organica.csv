@@ -1,0 +1,58 @@
+#Institución;Sección;Nombre
+00;;;Gobierno de La Rioja
+00;00;0;Gobierno de La Rioja
+#
+01;;;Parlamento
+03;;;Consejo Consultivo De La Rioja
+05;;;Agricultura, Ganadería Y Medio Ambiente
+06;;;Salud
+08;;;Educacion, Formación Y Empleo
+09;;;Fomento Y Política Territorial
+11;;;Deuda Publica
+12;;;Administración Pública Y Hacienda
+14;;;Presidencia, Relaciones Institucionales Y Acción Exterior
+15;;;Servicio Riojano De Salud
+17;;;Instituto De Estudios Riojanos
+19;;;Desarrollo Económico E Innovación
+20;;;Políticas Sociales, Familia, Igualdad Y Justicia
+
+01;01;0;Parlamento
+03;01;0;Consejo Consultivo De La Rioja
+05;01;0;Secretaria General Tecnica
+05;02;0;Dirección General De Agricultura Y Ganadería
+05;03;0;Dirección General De Desarrollo Rural
+05;06;0;Dirección General De Medio Natural
+05;07;0;Dirección General De Calidad Ambiental Y Agua
+06;01;0;Secretaria General Tecnica
+06;03;0;Direccion General De Salud Pública Y Consumo
+06;04;0;Dirección General De Prestaciones Y Farmacia
+08;01;0;Secretaria General Tecnica
+08;04;0;Direccion General De Educación
+08;05;0;Dirección General De Empleo
+09;01;0;Secretaria General Tecnica
+09;02;0;Direccion General De Obras Públicas Y Transportes
+09;03;0;Direccion General De Urbanismo Y Vivienda
+09;05;0;Dirección General De Política Local
+11;01;0;Deuda Publica
+12;01;0;Secretaria General Tecnica
+12;02;0;Oficina De Control Presupuestario
+12;03;0;Intervencion General.
+12;04;0;Direccion General De Tributos
+12;08;0;Dirección General De Los Servicios Jurídicos
+12;09;0;Dirección General De La Función Pública
+12;10;0;D.G. De Agenda Digital
+14;01;0;Gabinete Del Presidente
+14;02;0;D.G. De Accion Exterior
+14;10;0;Servicios Generales
+15;01;0;Complejo Hospitalario Y 061
+15;02;0;Centros De Salud
+15;03;0;Centro Asistencial De Albelda
+15;04;0;Gerencia Servicio Riojano De Salud
+17;01;0;Gerencia Del Instituto De Estudios Riojanos
+19;01;0;Secretaria General Técnica
+19;03;0;D. General De Innovación, Trabajo, Industria Y Comercio
+19;06;0;Dirección General De Cultura Y Turismo
+20;01;0;Secretaria General Técnica
+20;02;0;D.G. De Justicia E Interior
+20;03;0;Dirección General Del Deporte Y Del Instituto Riojano De La Juventud
+20;04;0;Dirección General De Servicios Sociales
