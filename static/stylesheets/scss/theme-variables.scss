@@ -13,11 +13,11 @@ $gray-lightest:         lighten($gray-base, 96%) !default;
 
 $text-color:            #46535b;
 
-$brand-primary:         #538d1c; // --c-verde-4 (light green)
-$brand-secondary:       #00695c; // --c-verde-1 (dark green)
-$brand-terciary:        #002e23; // --c-verde-1
+$brand-primary:         #4d841a;
+$brand-secondary:       #00523e;
+$brand-terciary:        #eee;
 
-$brand-highlight-dark:  #ec752e; // --c-naranja
+$brand-highlight-dark:  $brand-primary;
 $brand-highlight-light: #ffaa00; // --c-warning
 $brand-dark:            #3B464C; // specific for footer
 

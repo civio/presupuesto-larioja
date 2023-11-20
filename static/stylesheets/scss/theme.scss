@@ -12,10 +12,39 @@
   color: white!important;
 }
 
-// Improve glossary layout colors
-.icon-term {
+// CUSTOM CSS (colors layout)
+// Client demand of specific colors
+
+// General
+.form-search label {
+  color: $text-color!important;
+}
+// buttons and headers of data-panel
+.data-controllers .chart-embed-btn span {
+  background-color: $brand-primary;
+}
+.data-panel .panel-title {
+  background: $brand-primary;
+}
+.social-sharing-toolbox li a {
+  background-color: $brand-primary;
+}
+#modal-embed .modal-body textarea {
+  background-color: $brand-terciary;
+}
+
+// Budget intro
+.body-welcome .budget-intro .budget-step h3 span {
+  color: $brand-primary;
+}
+.body-welcome .budget-intro .budget-step .desc {
+  background: $brand-secondary;
+}
+
+// Glossary
+.body-glossary .icon-term {
   color: $brand-highlight-dark;
 }
-.glossary-terms h3:before {
+.body-glossary .glossary-terms h3:before {
   color: $brand-highlight-dark;
 }
