@@ -121,12 +121,15 @@ G;9;1;;Amortización de préstamos del interior
 I;1;0;0;Compensación Impuesto Actividades Económicas
 I;1;0;1;Recargo sobre Actividades Económicas
 I;1;0;2;Tramo Autonómico Del I.R.P.F.
-I;1;1;0;Impuesto sobre Sucesiones Y Donaciones
-I;1;1;1;Impuesto sobre El Patrimonio
+I;1;1;0;Impuesto sobre Sucesiones y Donaciones
+I;1;1;1;Impuesto sobre el Patrimonio
+I;1;1;2;Impuesto sobre Donaciones
 I;1;1;3;Impuesto sobre los Depósitos en las Entidades de Crédito
-I;2;0;0;Sobre Transmisiones las imoniales Y Actos Juridicos Documentados
+I;1;1;4;Impuesto sobre los Grandes Establecimientos Comerciales
+I;2;0;0;Sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados
+I;2;0;1;Sobre Actos Jurídicos Documentados
 I;2;1;0;Tributos sobre El Juego
-I;2;2;0;Canon de Saneamiento Y Depuración
+I;2;2;0;Canon de Saneamiento y Depuración
 I;2;3;0;Impuesto sobre El Valor Añadido
 I;2;4;0;Impuestos Especiales
 I;2;8;0;Sobre Determinados Medios de Transporte
@@ -135,24 +138,37 @@ I;2;8;2;Impuestos Medioambientales
 I;2;8;3;Impuestos Economía Circular
 I;3;0;0;Venta de Publicaciones Propias
 I;3;0;4;Venta de Productos Agropecuarios
+I;3;0;5;Venta de Material de Deshecho
 I;3;0;9;Venta de Otros Bienes
-I;3;1;2;Actuaciones de Protección Y Promoción Social
+I;3;1;0;Servicios Sanitarios
+I;3;1;1;Politicas Sociales, Familia, Igualdad y Justicia
+I;3;1;2;Actuaciones de Protección y Promoción Social
 I;3;1;3;Producción de Bienes Públicos de Carácter Preferente
 I;3;1;4;Actuaciones de Carácter Económico
+I;3;1;5;De la Consejería de Educación, Formación y Empleo
+I;3;1;7;De La Consejería De Agricultura, Ganadería y Medio Ambiente
 I;3;1;9;Actuaciones de Carácter General
 I;3;2;1;Servicios Públicos Básicos
+I;3;2;2;Salud
 I;3;2;3;Producción de Bienes Públicos de Carácter Preferente
 I;3;2;4;Actuaciones de Carácter Económico
+I;3;2;5;Fomento y Política Territorial
+I;3;2;6;Políticas Sociales, Familia, Igualdad y Justicia
+I;3;2;7;Administración Pública y Hacienda
 I;3;2;9;Actuaciones de Carácter General
 I;3;3;1;Servicios Públicos Básicos
-I;3;3;2;Actuaciones de Protección Y Promoción Social
+I;3;3;2;Actuaciones de Protección y Promoción Social
 I;3;3;3;Producción de Bienes Públicos de Carácter Preferente
 I;3;3;4;Actuaciones de Carácter Económico
+I;3;3;5;Fomento y Política Territorial
+I;3;3;6;Políticas Sociales, Familia, Igualdad y Justicia
+I;3;3;7;Administración Pública y Hacienda
+I;3;3;8;Presidencia, Relaciones Institucionales y Acción Exterior
 I;3;3;9;Actuaciones de Carácter General
 I;3;5;0;Gestionada Por Servicio Riojano de Salud Para Financiar Sus Gastos Sanitarios
 I;3;8;0;De Pagos de Ejercicios Anteriores
 I;3;9;0;Derechos de Examen Para Provisión Plazas Parlamento
-I;3;9;1;Recargos Y Multas
+I;3;9;1;Recargos y Multas
 I;3;9;2;Recaudación de Tributos
 I;3;9;3;Indemnización Por Ocupacion Temporal de Montes
 I;3;9;4;Participación en las esos de la C.T.N.E.
@@ -161,14 +177,17 @@ I;3;9;9;Ingresos Diversos
 I;4;0;1;De Departamentos Ministeriales
 I;4;0;2;Participación en los Ingresos Del Estado
 I;4;0;3;Pensiones Asistenciales
+I;4;0;4;Acuerdo Bilateral Compensación Efecto Frontera
 I;4;0;6;Asignación 0,7% Del IRPF
 I;4;1;0;De Organismos Autónomos
 I;4;2;1;Del Imserso
 I;4;2;2;De la Tesorería General de la Seguridad Social
-I;4;3;0;De Entidades Públicas Empresariales Y Otros Organismos Públicos
+I;4;3;0;De Entidades Públicas Empresariales y Otros Organismos Públicos
 I;4;6;0;De Ayuntamientos
 I;4;7;0;Sociedades Privadas
 I;4;7;2;Entidades Financieras
+I;4;7;3;Obra Social Cajas de Ahorro
+I;4;7;4;Gas Natural
 I;4;8;0;Instituciones Sin Fines de Lucro
 I;4;9;0;Programa Operativo Fondo Social Europeo
 I;4;9;1;Fondo Europeo Agrícola de Garantía (FEAGA)
@@ -186,12 +205,13 @@ I;6;1;9;Venta de Otras Inversiones Reales
 I;6;8;1;Del Presupuesto Corriente
 I;7;0;1;De Departamentos Ministeriales
 I;7;1;0;De Organismos Autónomos
-I;7;3;0;Entidades Públicas Empres. Y Otros Organismos Públicos
+I;7;3;0;Entidades Públicas Empres. y Otros Organismos Públicos
 I;7;5;9;De Otros Entes Públicos
 I;7;6;0;De Ayuntamientos
 I;7;9;0;Programa Operativo Fondo Europeo de Desarrollo Regional (FEDER)
 I;7;9;1;Fondo Europeo Agrícola de Garantía (FEAGA)
 I;7;9;3;Fondo Europeo Agrícola de Desarrollo Rural (FEADER)
+I;7;9;9;Otras Transferencias del Exterior
 
 #Gastos
 G;1;0;0;Retribuciones Básicas y Otras Remuneraciones de Altos Cargos
@@ -208,13 +228,16 @@ G;1;4;1;Otro Personal
 G;1;5;0;Productividad
 G;1;5;1;Gratificaciones
 G;1;6;0;Cuotas Sociales
+G;1;6;1;Prestaciones Sociales
 G;1;6;2;Gastos Sociales de Funcionarios y Personal No Laboral
 G;1;6;3;Gastos Sociales de Personal Laboral
 G;1;6;4;Complemento Familiar
+G;1;6;5;Gastos Sociales de Altos Cargos
 G;1;7;0;Imprevistos y Funciones No Clasificadas
 G;1;7;1;Actualización Masa Salarial y Carrera Profesional
 G;1;8;0;Retribuciones Básicas Funcionarios
 G;1;8;1;Retribuciones Complementarias Funcionarios
+G;1;8;2;Retribuciones en Especie Funcionarios
 G;1;8;4;Imprevistos y Funciones No Clasificadas
 G;1;8;5;Laboral Fijo
 G;1;8;6;Laboral Eventual
@@ -254,8 +277,10 @@ G;2;2;7;Trabajos Realizados Por Otras Empresas
 G;2;2;9;Gastos de Funcionamiento de Centros Públicos No Universitarios
 G;2;3;0;Dietas
 G;2;3;1;Locomoción
+G;2;3;2;Traslados
 G;2;3;3;Otras Indemnizaciones
 G;2;5;2;Conciertos Con Instituciones de Atencion Especializada
+G;2;5;3;Conciertos Para Programas Especiales de Hemodiálisis
 G;2;5;4;Conciertos Con Centros O Servicios de Diagnóstico y Tratamiento y Terapias
 G;2;5;5;Conciertos Para El Programa Especial de Transporte
 G;2;5;8;Otros Servicios de Asistencia Sanitaria
@@ -270,7 +295,9 @@ G;4;0;1;A Organismos Autónomos de la CAR
 G;4;0;2;A la Administración General de la CAR
 G;4;1;0;A Organismos Autónomos
 G;4;2;0;A la Administración General Del Estado
+G;4;2;1;A Organismos Autónomos
 G;4;2;3;A Entidades Públicas Empresariales y Otros Organismos Públicos
+G;4;2;4;A Sociedades Mercantiles Estatales
 G;4;2;5;A Fundaciones Estatales
 G;4;2;6;A Consorcios
 G;4;3;0;Entidades Públicas Empresariales de la Comunidad Autónoma de La Rioja
@@ -320,7 +347,7 @@ G;6;2;6;Equipos Para Procesos de Información
 G;6;2;7;Proyectos Complejos
 G;6;2;8;Elementos Audiovisuales
 G;6;2;9;Otros Activos Materiales
-G;6;3;0;Terrenos Y Bienes Naturales
+G;6;3;0;Terrenos y Bienes Naturales
 G;6;3;2;Edificios y Otras Construcciones
 G;6;3;3;Maquinaria, Instalaciones y Utillaje
 G;6;3;4;Elementos de Transporte
@@ -334,13 +361,14 @@ G;6;4;6;Gastos de Investigacion y Desarrollo
 G;6;4;8;Otro Inmovilizado Inmaterial
 G;6;5;0;Inversiones en Patrimonio Histórico Destinado al Uso General
 G;6;5;1;Inversiones en Patrimonio Histórico Destinado al Funcionamiento Operativo de los Servicios
-G;6;6;0;Terrenos Y Bienes Naturales
+G;6;6;0;Terrenos y Bienes Naturales
 G;6;6;1;Infraestructuras y Bienes Destinados al Uso General
 G;6;6;3;Maquinaria, Instalaciones y Utillaje
 G;6;6;6;Equipos Para Procesos de Información
 G;6;6;9;Otros Activos Materiales
 G;7;0;0;A la Administración General de la Comunidad Autónoma de La Rioja
 G;7;2;0;A la Administración General Del Estado
+G;7;2;1;A Organismos Autónomos
 G;7;2;3;A Entidades Públicas Empresariales y otros Organismos Públicos
 G;7;3;0;A Entidades Públicas Empresariales de la Comunidad Autónoma de La Rioja
 G;7;4;0;A Sociedades Públicas
@@ -358,6 +386,7 @@ G;7;7;1;A Empresas Privadas
 G;7;7;2;A Empresas Privadas
 G;7;7;3;A Empresas Privadas
 G;7;7;4;A Empresas Privadas
+G;7;7;5;A Empresas Privadas
 G;7;7;6;A Empresas Privadas
 G;7;7;8;A Empresas Privadas
 G;7;7;9;A Empresas Privadas
@@ -365,7 +394,9 @@ G;7;8;0;A Familias e Instituciones Sin Ánimo de Lucro
 G;7;8;1;A Familias e Instituciones Sin Ánimo de Lucro
 G;7;8;2;A Familias e Instituciones Sin Ánimo de Lucro
 G;7;8;3;A Familias e Instituciones Sin Ánimo de Lucro
+G;7;8;5;A Familias e Instituciones Sin Ánimo de Lucro
 G;7;8;6;A Familias e Instituciones Sin Ánimo de Lucro
 G;7;8;7;A Familias e Instituciones Sin Ánimo de Lucro
-G;7;9;0;A Familias e Instituciones Sin Ánimo de Lucro
+G;7;9;0;Al Exterior
+G;7;9;1;Al Exterior
 
