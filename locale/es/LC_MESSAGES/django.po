@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-18 12:14+0100\n"
-"PO-Revision-Date: 2023-06-30 23:28+0200\n"
+"PO-Revision-Date: 2023-12-28 16:27+0100\n"
 "Last-Translator: David Cabo <david@civio.es>\n"
 "Language-Team: \n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: templates/base.html:4 templates/shared/social_sharing.html:5
 msgid "Presupuestos del Gobierno de Aragón"
@@ -54,6 +54,10 @@ msgstr "Ingresos y gastos en el Gobierno de La Rioja"
 #: templates/shared/header.html.py:61 templates/welcome/index.html:54
 msgid "Gobierno de Aragón"
 msgstr "Gobierno de La Rioja"
+
+#: templates/budgets/index.html:53
+msgid "El cálculo de los indicadores utiliza las cifras de ejecución para los años cuya liquidación está cerrada, o el presupuesto aprobado en caso contrario."
+msgstr "El cálculo de los indicadores utiliza las cifras de ejecución para los años cuya liquidación está cerrada, o el presupuesto aprobado en caso contrario, y se refiere solo a operaciones no financieras (capítulos I a VII)."
 
 #: templates/shared/data_sources.html:9
 msgid "Datos de inflación (Medias anuales de IPC para Aragón)"
