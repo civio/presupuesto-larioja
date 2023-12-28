@@ -1,21 +1,22 @@
+EJERCICIO;ID_CAPITULO;DESC_CAPITULO;ID_ARTICULO;DESC_ARTICULO;ID_CONCEPTO;DESC_CONCEPTO;ID_SUBCONCEPTO;DESC_SUBCONCEPTO;PPTO_INICIAL;MODIFICACION;PPTO_DEFINITIVO;DERECHOS_RECONOCIDOS_NETOS;RECAUDACION_NETA
 2020;1;Impuestos Directos;1-0;Sobre La Renta;1-0-0;Compensacion Impuesto Actividades Economicas;1-0-0-;; 800000,0; 0,0; 800000,0; 829991,87; 829991,87
 2020;1;Impuestos Directos;1-0;Sobre La Renta;1-0-1;Recargo Sobre Actividades Economicas;1-0-1-;; 1500000,0; 0,0; 1500000,0; 1646292,38; 1292578,06
 2020;1;Impuestos Directos;1-0;Sobre La Renta;1-0-2;Tramo Autonomico Del I.R.P.F.;1-0-2-;; 340804650,0; 0,0; 340804650,0; 353782919,26; 353782919,26
 2020;1;Impuestos Directos;1-1;Sobre El Capital;1-1-0;Impuesto Sobre Sucesiones Y Donaciones;1-1-0-01;Impuesto Sobre Sucesiones; 18000000,0; 0,0; 18000000,0; 20988406,63; 20491928,92
 2020;1;Impuestos Directos;1-1;Sobre El Capital;1-1-0;Impuesto Sobre Sucesiones Y Donaciones;1-1-0-02;Impuesto Sobre Donaciones; 3000000,0; 0,0; 3000000,0; 3047295,75; 2981615,94
 2020;1;Impuestos Directos;1-1;Sobre El Capital;1-1-1;Impuesto Sobre El Patrimonio;1-1-1-;; 4100000,0; 0,0; 4100000,0; 4479126,5; 4439224,48
-2020;1;Impuestos Directos;1-1;Sobre El Capital;1-1-3;Impuesto Sobre Los Depositos En Las Entidades De Crédito;1-1-3-;; 3000000,0; 0,0; 3000000,0; 4014289,82; 4014289,82
+2020;1;Impuestos Directos;1-1;Sobre El Capital;1-1-3;Impuesto Sobre Los Depositos En Las Entidades De CrÃ©dito;1-1-3-;; 3000000,0; 0,0; 3000000,0; 4014289,82; 4014289,82
 2020;2;Impuestos Indirectos;2-0;Sobre Transmisiones Patrimoniales Y Actos Juridicos Documentados;2-0-0;Sobre Transmisiones Patrimoniales Y Actos Juridicos Documentados;2-0-0-01;Sobre Transmisiones Patrimoniales; 30000000,0; 0,0; 30000000,0; 27053348,69; 26681687,97
 2020;2;Impuestos Indirectos;2-0;Sobre Transmisiones Patrimoniales Y Actos Juridicos Documentados;2-0-0;Sobre Transmisiones Patrimoniales Y Actos Juridicos Documentados;2-0-0-02;Sobre Actos Juridicos Documentados; 13000000,0; 0,0; 13000000,0; 7974105,37; 7787995,03
 2020;2;Impuestos Indirectos;2-1;Tributos Sobre El Juego;2-1-0;Tributos Sobre El Juego;2-1-0-;; 9200000,0; 0,0; 9200000,0; 7157678,9; 6942042,8
 2020;2;Impuestos Indirectos;2-2;Canones;2-2-0;Canon De Saneamiento Y Depuracion;2-2-0-;; 12000000,0; 0,0; 12000000,0; 11923648,42; 11475492,07
-2020;2;Impuestos Indirectos;2-3;Sobre El Valor Añadido;2-3-0;Impuesto Sobre El Valor Añadido;2-3-0-01;Sobre Operaciones Interiores; 269786050,0; 0,0; 269786050,0; 264829423,87; 264829423,87
-2020;2;Impuestos Indirectos;2-4;Sobre Consumos Específicos;2-4-0;Impuestos Especiales;2-4-0-00;Impuesto Sobre El Alcohol Y Bebidas Derivadas; 3128690,0; 0,0; 3128690,0; 2714787,13; 2714787,13
-2020;2;Impuestos Indirectos;2-4;Sobre Consumos Específicos;2-4-0;Impuestos Especiales;2-4-0-01;Impuesto Sobre Productos Intermedios; 78090,0; 0,0; 78090,0; 62497,97; 62497,97
-2020;2;Impuestos Indirectos;2-4;Sobre Consumos Específicos;2-4-0;Impuestos Especiales;2-4-0-02;Impuesto Sobre La Cerveza; 1271000,0; 0,0; 1271000,0; 1219428,49; 1219428,49
-2020;2;Impuestos Indirectos;2-4;Sobre Consumos Específicos;2-4-0;Impuestos Especiales;2-4-0-03;Impuesto Sobre Las Labores Del Tabaco; 26645750,0; 0,0; 26645750,0; 26393459,25; 26393459,25
-2020;2;Impuestos Indirectos;2-4;Sobre Consumos Específicos;2-4-0;Impuestos Especiales;2-4-0-04;Impuesto Sobre Hidrocarburos; 95595320,0; 0,0; 95595320,0; 78221845,22; 78221845,22
-2020;2;Impuestos Indirectos;2-4;Sobre Consumos Específicos;2-4-0;Impuestos Especiales;2-4-0-05;Impuesto Sobre La Electricidad; 8952100,0; 0,0; 8952100,0; 9033739,92; 9033739,92
+2020;2;Impuestos Indirectos;2-3;Sobre El Valor AÃ±adido;2-3-0;Impuesto Sobre El Valor AÃ±adido;2-3-0-01;Sobre Operaciones Interiores; 269786050,0; 0,0; 269786050,0; 264829423,87; 264829423,87
+2020;2;Impuestos Indirectos;2-4;Sobre Consumos EspecÃ­ficos;2-4-0;Impuestos Especiales;2-4-0-00;Impuesto Sobre El Alcohol Y Bebidas Derivadas; 3128690,0; 0,0; 3128690,0; 2714787,13; 2714787,13
+2020;2;Impuestos Indirectos;2-4;Sobre Consumos EspecÃ­ficos;2-4-0;Impuestos Especiales;2-4-0-01;Impuesto Sobre Productos Intermedios; 78090,0; 0,0; 78090,0; 62497,97; 62497,97
+2020;2;Impuestos Indirectos;2-4;Sobre Consumos EspecÃ­ficos;2-4-0;Impuestos Especiales;2-4-0-02;Impuesto Sobre La Cerveza; 1271000,0; 0,0; 1271000,0; 1219428,49; 1219428,49
+2020;2;Impuestos Indirectos;2-4;Sobre Consumos EspecÃ­ficos;2-4-0;Impuestos Especiales;2-4-0-03;Impuesto Sobre Las Labores Del Tabaco; 26645750,0; 0,0; 26645750,0; 26393459,25; 26393459,25
+2020;2;Impuestos Indirectos;2-4;Sobre Consumos EspecÃ­ficos;2-4-0;Impuestos Especiales;2-4-0-04;Impuesto Sobre Hidrocarburos; 95595320,0; 0,0; 95595320,0; 78221845,22; 78221845,22
+2020;2;Impuestos Indirectos;2-4;Sobre Consumos EspecÃ­ficos;2-4-0;Impuestos Especiales;2-4-0-05;Impuesto Sobre La Electricidad; 8952100,0; 0,0; 8952100,0; 9033739,92; 9033739,92
 2020;2;Impuestos Indirectos;2-8;Otros Impuestos Indirectos;2-8-0;Sobre Determinados Medios De Transporte;2-8-0-;; 3000000,0; 0,0; 3000000,0; 2491916,71; 2280977,6
 2020;2;Impuestos Indirectos;2-8;Otros Impuestos Indirectos;2-8-2;Impuestos Medioambientales;2-8-2-01;Sobre Eliminacion De Residuos En Vertederos; 300000,0; 0,0; 300000,0; 658810,92; 658810,92
 2020;2;Impuestos Indirectos;2-8;Otros Impuestos Indirectos;2-8-2;Impuestos Medioambientales;2-8-2-02;Impuesto Sobre El Impacto Visual Elementos Suministro Energia Electrica; 2300000,0; 0,0; 2300000,0; 2244942,0; 2244942,0
@@ -39,7 +40,7 @@
 2020;3;Tasas Y Otros Ingresos;3-1;Prestacion De Servicios;3-1-2;Actuaciones De Proteccion Y Promocion Social;3-1-2-11;Cursos De Formacion Juvenil; 4000,0; 0,0; 4000,0; 0,0; 0,0
 2020;3;Tasas Y Otros Ingresos;3-1;Prestacion De Servicios;3-1-3;Produccion De Bienes Publicos De Caracter Preferente;3-1-3-00;Centro Asistencial Albelda De Iregua; 500000,0; 0,0; 500000,0; 601235,12; 601235,12
 2020;3;Tasas Y Otros Ingresos;3-1;Prestacion De Servicios;3-1-3;Produccion De Bienes Publicos De Caracter Preferente;3-1-3-01;Escuelas Infantiles De Primer Ciclo; 485000,0; 0,0; 485000,0; 142510,06; 142510,06
-2020;3;Tasas Y Otros Ingresos;3-1;Prestacion De Servicios;3-1-3;Produccion De Bienes Publicos De Caracter Preferente;3-1-3-02;Servicios Docentes Escuela Superior De Diseño De La Rioja; 500000,0; 0,0; 500000,0; 192062,22; 192062,22
+2020;3;Tasas Y Otros Ingresos;3-1;Prestacion De Servicios;3-1-3;Produccion De Bienes Publicos De Caracter Preferente;3-1-3-02;Servicios Docentes Escuela Superior De DiseÃ±o De La Rioja; 500000,0; 0,0; 500000,0; 192062,22; 192062,22
 2020;3;Tasas Y Otros Ingresos;3-1;Prestacion De Servicios;3-1-3;Produccion De Bienes Publicos De Caracter Preferente;3-1-3-04;Venta De Entradas Filmoteca Rafael Azcona; 18000,0; 0,0; 18000,0; 10098,48; 10098,48
 2020;3;Tasas Y Otros Ingresos;3-1;Prestacion De Servicios;3-1-3;Produccion De Bienes Publicos De Caracter Preferente;3-1-3-05;Venta De Entradas Ven A La Bene; 4300,0; 0,0; 4300,0; 0,0; 0,0
 2020;3;Tasas Y Otros Ingresos;3-1;Prestacion De Servicios;3-1-3;Produccion De Bienes Publicos De Caracter Preferente;3-1-3-06;Actividades Didacticas Organizadas Por Los Museos De La Rioja; 3500,0; 0,0; 3500,0; 130,8; 130,8
@@ -58,7 +59,7 @@
 2020;3;Tasas Y Otros Ingresos;3-2;Tasas De La Comunidad Autonoma De La Rioja;3-2-1;Servicios Publicos Basicos;3-2-1-00;Tasa 1.01 Prestacion Del Servicio De Transporte Agua Potable; 0,0; 0,0; 0,0; 317,1; 317,1
 2020;3;Tasas Y Otros Ingresos;3-2;Tasas De La Comunidad Autonoma De La Rioja;3-2-1;Servicios Publicos Basicos;3-2-1-01;Tasa 1.02. Inscripcion Y Expedicion Certificados Registro Parejas De Hecho; 5000,0; 0,0; 5000,0; 3103,35; 3103,35
 2020;3;Tasas Y Otros Ingresos;3-2;Tasas De La Comunidad Autonoma De La Rioja;3-2-1;Servicios Publicos Basicos;3-2-1-03;Tasa 1.04 Utilizacion Centros Telecomunicaciones Por Concesionarios Radiodifusio; 122000,0; 0,0; 122000,0; 88732,36; 88732,36
-2020;3;Tasas Y Otros Ingresos;3-2;Tasas De La Comunidad Autonoma De La Rioja;3-2-3;Produccion De Bienes Publicos De Caracter Preferente;3-2-3-00;Tasa 3.01 Inscripcion Pruebas Libres Obtencion Titulo Bachiller Mayores 20 Años; 400,0; 0,0; 400,0; 430,0; 430,0
+2020;3;Tasas Y Otros Ingresos;3-2;Tasas De La Comunidad Autonoma De La Rioja;3-2-3;Produccion De Bienes Publicos De Caracter Preferente;3-2-3-00;Tasa 3.01 Inscripcion Pruebas Libres Obtencion Titulo Bachiller Mayores 20 AÃ±os; 400,0; 0,0; 400,0; 430,0; 430,0
 2020;3;Tasas Y Otros Ingresos;3-2;Tasas De La Comunidad Autonoma De La Rioja;3-2-3;Produccion De Bienes Publicos De Caracter Preferente;3-2-3-01;Tasa 3.02 Inscripcion Pruebas Acceso Ciclos Formativos Grado Medio Y Grado Super; 7500,0; 0,0; 7500,0; 3220,0; 3220,0
 2020;3;Tasas Y Otros Ingresos;3-2;Tasas De La Comunidad Autonoma De La Rioja;3-2-3;Produccion De Bienes Publicos De Caracter Preferente;3-2-3-02;Tasa 3.03 Inscripcion Pruebas Competencia Acceso Formacion Cert. Prof. Nivel 2 Y; 500,0; 0,0; 500,0; 950,0; 950,0
 2020;3;Tasas Y Otros Ingresos;3-2;Tasas De La Comunidad Autonoma De La Rioja;3-2-3;Produccion De Bienes Publicos De Caracter Preferente;3-2-3-03;Tasa 3.04 Inscripcion Pruebas Titulos Tecnico Y Tecnico Superior De Formacion Pr; 6000,0; 0,0; 6000,0; 0,0; 0,0
@@ -136,26 +137,26 @@
 2020;3;Tasas Y Otros Ingresos;3-9;Otros Ingresos;3-9-9;Ingresos Diversos;3-9-9-06;Ingresos De Diversas Mutuas De Acc. De Trabajo Y Enf. Prof. De La Seg.Soc.; 40000,0; 0,0; 40000,0; 743016,74; 743016,74
 2020;3;Tasas Y Otros Ingresos;3-9;Otros Ingresos;3-9-9;Ingresos Diversos;3-9-9-99;Otros Ingresos Diversos; 281100,0; 0,0; 281100,0; 664333,15; 643963,86
 2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-00;Sanidad, Consumo Y Bienestar Social; 3583700,0; 27111180,0; 30694880,0; 10607807,52; 10315315,19
-2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-01;Agricultura, Pesca Y Alimentación; 1863000,0; 120501,22; 1983501,22; 253306,88; 253306,88
-2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-03;Inclusión, Seguridad Social Y Migraciones; 0,0; 0,0; 0,0; 3441,0; 3441,0
+2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-01;Agricultura, Pesca Y AlimentaciÃ³n; 1863000,0; 120501,22; 1983501,22; 253306,88; 253306,88
+2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-03;InclusiÃ³n, Seguridad Social Y Migraciones; 0,0; 0,0; 0,0; 3441,0; 3441,0
 2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-04;Educacion Y Formacion Profesional; 3529200,0; 545000,0; 4074200,0; 5945323,2; 5945323,2
 2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-06;Transportes, Movilidad Y Agenda Urbana; 0,0; 2563690,53; 2563690,53; 0,0; 0,0
 2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-08;Hacienda; 0,0; 56299230,35; 56299230,35; 127055430,0; 127055430,0
 2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-13;Cultura Y Deporte; 0,0; 0,0; 0,0; 13385,72; 13385,72
-2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-15;Presidencia, Relaciones Con Las Cortes Y Memoria Democrática; 0,0; 0,0; 0,0; 1861393,19; 1861393,19
+2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-15;Presidencia, Relaciones Con Las Cortes Y Memoria DemocrÃ¡tica; 0,0; 0,0; 0,0; 1861393,19; 1861393,19
 2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-1;De Departamentos Ministeriales;4-0-1-16;Transicion Ecologica Y Reto Demografico; 0,0; 943364,08; 943364,08; 943364,08; 943364,08
 2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-2;Participacion Ingresos Del Estado;4-0-2-04;Transferencia Del Fondo De Garantia; 43923850,0; 0,0; 43923850,0; 74946357,74; 74946357,74
 2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-2;Participacion Ingresos Del Estado;4-0-2-07;Fondo De Suficiencia Global; 206237790,0; 0,0; 206237790,0; 208139302,04; 208139302,04
 2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-2;Participacion Ingresos Del Estado;4-0-2-09;Actualizacion Entregas A Cuenta; 19429119,0; 0,0; 19429119,0; 0,0; 0,0
 2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-2;Participacion Ingresos Del Estado;4-0-2-12;Fondos De Convergencia Autonomica; 21875410,0; 0,0; 21875410,0; 21518673,37; 21518673,37
 2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-3;Pensiones Asistenciales;4-0-3-;; 5000,0; 0,0; 5000,0; 0,0; 0,0
-2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-6;Asignación 0,7 Por Ciento Del I.R.P.F;4-0-6-;; 1660000,0; 810793,1; 2470793,1; 2470793,1; 2470793,1
-2020;4;Transferencias Corrientes;4-1;De Organismos Autonomos De La Administración General Del Estado;4-1-0;De Organismos Autonomos;4-1-0-00;Servicio Público De Empleo Estatal; 11677500,0; 0,0; 11677500,0; 5793798,66; 5793798,66
-2020;4;Transferencias Corrientes;4-1;De Organismos Autonomos De La Administración General Del Estado;4-1-0;De Organismos Autonomos;4-1-0-08;Instituto Nacional De Administración Pública; 300000,0; 0,0; 300000,0; 299610,0; 299610,0
-2020;4;Transferencias Corrientes;4-1;De Organismos Autonomos De La Administración General Del Estado;4-1-0;De Organismos Autonomos;4-1-0-09;Organismo Nacional De Loterias Y Apuestas Del Estado; 65000,0; 0,0; 65000,0; 87030,55; 87030,55
+2020;4;Transferencias Corrientes;4-0;De La Administracion Del Estado;4-0-6;AsignaciÃ³n 0,7 Por Ciento Del I.R.P.F;4-0-6-;; 1660000,0; 810793,1; 2470793,1; 2470793,1; 2470793,1
+2020;4;Transferencias Corrientes;4-1;De Organismos Autonomos De La AdministraciÃ³n General Del Estado;4-1-0;De Organismos Autonomos;4-1-0-00;Servicio PÃºblico De Empleo Estatal; 11677500,0; 0,0; 11677500,0; 5793798,66; 5793798,66
+2020;4;Transferencias Corrientes;4-1;De Organismos Autonomos De La AdministraciÃ³n General Del Estado;4-1-0;De Organismos Autonomos;4-1-0-08;Instituto Nacional De AdministraciÃ³n PÃºblica; 300000,0; 0,0; 300000,0; 299610,0; 299610,0
+2020;4;Transferencias Corrientes;4-1;De Organismos Autonomos De La AdministraciÃ³n General Del Estado;4-1-0;De Organismos Autonomos;4-1-0-09;Organismo Nacional De Loterias Y Apuestas Del Estado; 65000,0; 0,0; 65000,0; 87030,55; 87030,55
 2020;4;Transferencias Corrientes;4-2;De La Seguridad Social;4-2-1;Del Imserso;4-2-1-00;Prestaciones Dependencia; 10008300,0; 0,0; 10008300,0; 9938898,65; 9075020,61
 2020;4;Transferencias Corrientes;4-2;De La Seguridad Social;4-2-2;De La Tesoreria General De La Seguridad Social;4-2-2-00;De La Tesoreria General De La Seguridad Social; 1800000,0; 0,0; 1800000,0; 1724070,33; 1724070,33
-2020;4;Transferencias Corrientes;4-6;De Corporaciones Locales;4-6-0;De Ayuntamientos;4-6-0-00;Ayuntamiento De Logroño; 122000,0; 0,0; 122000,0; 75947,59; 75947,59
+2020;4;Transferencias Corrientes;4-6;De Corporaciones Locales;4-6-0;De Ayuntamientos;4-6-0-00;Ayuntamiento De LogroÃ±o; 122000,0; 0,0; 122000,0; 75947,59; 75947,59
 2020;4;Transferencias Corrientes;4-6;De Corporaciones Locales;4-6-0;De Ayuntamientos;4-6-0-01;Otros Ayuntamientos; 0,0; 0,0; 0,0; 29600,0; 29600,0
 2020;4;Transferencias Corrientes;4-7;De Empresas Privadas;4-7-0;Sociedades Privadas;4-7-0-00;Contour Global La Rioja; 0,0; 0,0; 0,0; 15891,75; 15891,75
 2020;4;Transferencias Corrientes;4-7;De Empresas Privadas;4-7-0;Sociedades Privadas;4-7-0-10;Donaciones Covid-19; 0,0; 1464750,0; 1464750,0; 1623778,0; 1623778,0
@@ -163,7 +164,7 @@
 2020;4;Transferencias Corrientes;4-8;De Familias E Instituciones Sin Fines De Lucro.;4-8-0;Instituciones Sin Fines De Lucro;4-8-0-10;Donaciones Covid-19; 0,0; 1072855,0; 1072855,0; 1123517,0; 1123517,0
 2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-0;Programa Operativo Fondo Social Europeo;4-9-0-;; 3004931,0; 0,0; 3004931,0; 709149,02; 709149,02
 2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-01;Promocion Terceros Paises; 6293000,0; 950964,52; 7243964,52; 4022058,02; 4022058,02
-2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-06;Ayudas A La Destilación; 0,0; 851704,15; 851704,15; 851704,15; 851704,15
+2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-06;Ayudas A La DestilaciÃ³n; 0,0; 851704,15; 851704,15; 851704,15; 851704,15
 2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-10;Fondos Operativos De Las Organiz. De Productores; 0,0; 2789825,16; 2789825,16; 2776679,9; 2776679,9
 2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-21;Pagos Remolacha Azucarera; 0,0; 477268,66; 477268,66; 477268,66; 477268,66
 2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-29;Fruta Escolar; 300000,0; 0,0; 300000,0; 164826,92; 164826,92
@@ -175,7 +176,7 @@
 2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-35;Ayuda Asociada Vacuno De Cebo; 0,0; 302403,96; 302403,96; 302403,96; 302403,96
 2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-36;Ayudas Ganaderos Ovino Y Caprino Derechos Especiales; 0,0; 143194,07; 143194,07; 143194,07; 143194,07
 2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-37;Ayuda Asociada Legumbres De Calidad; 0,0; 796,74; 796,74; 796,74; 796,74
-2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-38;Ayudas Frutos De Cáscara Y Algarrobas; 0,0; 103004,49; 103004,49; 103004,49; 103004,49
+2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-38;Ayudas Frutos De CÃ¡scara Y Algarrobas; 0,0; 103004,49; 103004,49; 103004,49; 103004,49
 2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-39;Ayuda Asociada Tomate Para Industria; 0,0; 243,64; 243,64; 243,64; 243,64
 2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-40;Ayuda Asociada Cultivos Proteicos; 0,0; 128967,23; 128967,23; 128967,23; 128967,23
 2020;4;Transferencias Corrientes;4-9;Del Exterior;4-9-1;Fondo Europeo Agricola De Garantia (Feaga);4-9-1-41;Reembolso Disciplina Financiera; 0,0; 298750,56; 298750,56; 298750,56; 298750,56
@@ -186,8 +187,8 @@
 2020;5;Ingresos Patrimoniales;5-1;Intereses De Anticipos Y Prestamos Concedidos;5-1-5;A La Comunidad Autonoma De La Rioja;5-1-5-02;A Entidades Publicas Empresariales; 71500,0; 0,0; 71500,0; 31960,8; 31960,8
 2020;5;Ingresos Patrimoniales;5-1;Intereses De Anticipos Y Prestamos Concedidos;5-1-5;A La Comunidad Autonoma De La Rioja;5-1-5-03;A Sociedades Publicas; 14900,0; 0,0; 14900,0; 12009,6; 12009,6
 2020;5;Ingresos Patrimoniales;5-1;Intereses De Anticipos Y Prestamos Concedidos;5-1-5;A La Comunidad Autonoma De La Rioja;5-1-5-99;A Otros Entes Publicos; 2500,0; 0,0; 2500,0; 0,0; 0,0
-2020;5;Ingresos Patrimoniales;5-1;Intereses De Anticipos Y Prestamos Concedidos;5-1-6;A Corporaciones Locales;5-1-6-01;Ayuntamiento De Logroño. V.P.O. Ruavieja; 42200,0; 0,0; 42200,0; 42162,56; 42162,56
-2020;5;Ingresos Patrimoniales;5-1;Intereses De Anticipos Y Prestamos Concedidos;5-1-6;A Corporaciones Locales;5-1-6-04;Ayuntamiento De Logroño.Rehabilitacion Casco Antiguo; 14200,0; 0,0; 14200,0; 14228,9; 14228,9
+2020;5;Ingresos Patrimoniales;5-1;Intereses De Anticipos Y Prestamos Concedidos;5-1-6;A Corporaciones Locales;5-1-6-01;Ayuntamiento De LogroÃ±o. V.P.O. Ruavieja; 42200,0; 0,0; 42200,0; 42162,56; 42162,56
+2020;5;Ingresos Patrimoniales;5-1;Intereses De Anticipos Y Prestamos Concedidos;5-1-6;A Corporaciones Locales;5-1-6-04;Ayuntamiento De LogroÃ±o.Rehabilitacion Casco Antiguo; 14200,0; 0,0; 14200,0; 14228,9; 14228,9
 2020;5;Ingresos Patrimoniales;5-1;Intereses De Anticipos Y Prestamos Concedidos;5-1-8;A Familias E Instituciones Sin Fines De Lucro;5-1-8-01;Otros Grupos De Viviendas Proteccion Oficial; 1000,0; 0,0; 1000,0; 0,0; 0,0
 2020;5;Ingresos Patrimoniales;5-2;Intereses De Depositos;5-2-0;Intereses De Cuentas Bancarias;5-2-0-;; 5000,0; 0,0; 5000,0; 248,43; 248,43
 2020;5;Ingresos Patrimoniales;5-4;Rentas De Bienes Inmuebles;5-4-0;Arrendamientos De Fincas Urbanas;5-4-0-01;Arrendamientos Para Vivienda; 65300,0; 0,0; 65300,0; 47248,71; 47248,71
@@ -211,11 +212,11 @@
 2020;7;Transferencias De Capital;7-0;De La Administracion Del Estado;7-0-1;De Departamentos Ministeriales;7-0-1-06;Fomento; 6188000,0; 0,0; 6188000,0; 7888333,96; 7888333,96
 2020;7;Transferencias De Capital;7-0;De La Administracion Del Estado;7-0-1;De Departamentos Ministeriales;7-0-1-08;Hacienda; 0,0; 0,0; 0,0; 800000,0; 800000,0
 2020;7;Transferencias De Capital;7-0;De La Administracion Del Estado;7-0-1;De Departamentos Ministeriales;7-0-1-16;Transicion Ecologica; 120000,0; 0,0; 120000,0; 352986,07; 352986,07
-2020;7;Transferencias De Capital;7-1;De Organismos Autonomos De La Administración General Del Estado;7-1-0;De Organismos Autónomos;7-1-0-00;Servicio Público De Empleo Estatal; 387000,0; 0,0; 387000,0; 0,0; 0,0
-2020;7;Transferencias De Capital;7-1;De Organismos Autonomos De La Administración General Del Estado;7-1-0;De Organismos Autónomos;7-1-0-05;I.N.I.A.; 0,0; 0,0; 0,0; 108314,99; 108314,99
+2020;7;Transferencias De Capital;7-1;De Organismos Autonomos De La AdministraciÃ³n General Del Estado;7-1-0;De Organismos AutÃ³nomos;7-1-0-00;Servicio PÃºblico De Empleo Estatal; 387000,0; 0,0; 387000,0; 0,0; 0,0
+2020;7;Transferencias De Capital;7-1;De Organismos Autonomos De La AdministraciÃ³n General Del Estado;7-1-0;De Organismos AutÃ³nomos;7-1-0-05;I.N.I.A.; 0,0; 0,0; 0,0; 108314,99; 108314,99
 2020;7;Transferencias De Capital;7-3;Entid.Publ.Empres.,Otros Org.Publ.Y Soc.,Mercant.Estat.;7-3-0;Entidades Publicas Empres. Y Otros Organismos Publicos;7-3-0-00;Idae; 0,0; 580365,32; 580365,32; 2825067,0; 2825067,0
 2020;7;Transferencias De Capital;7-6;De Corporaciones Locales;7-6-0;De Ayuntamientos;7-6-0-09;Otros Ayuntamientos; 113200,0; 0,0; 113200,0; 0,0; 0,0
 2020;7;Transferencias De Capital;7-9;Del Exterior;7-9-0;Programa Operativo Fondo Europeo De Desarrollo Regional (Feder);7-9-0-00;Programa Competitividad Regional Y Empleo; 5000000,0; 0,0; 5000000,0; 4303815,42; 0,0
 2020;7;Transferencias De Capital;7-9;Del Exterior;7-9-1;Fondo Europeo Agricola De Garantia (Feaga);7-9-1-00;Ocm Vino Inversiones; 4021000,0; 0,0; 4021000,0; 3270844,51; 3270844,51
-2020;7;Transferencias De Capital;7-9;Del Exterior;7-9-1;Fondo Europeo Agricola De Garantia (Feaga);7-9-1-01;Ocm Vino Reestructuracion De Viñedo; 2980000,0; 0,0; 2980000,0; 2010982,45; 2010982,45
+2020;7;Transferencias De Capital;7-9;Del Exterior;7-9-1;Fondo Europeo Agricola De Garantia (Feaga);7-9-1-01;Ocm Vino Reestructuracion De ViÃ±edo; 2980000,0; 0,0; 2980000,0; 2010982,45; 2010982,45
 2020;7;Transferencias De Capital;7-9;Del Exterior;7-9-3;Fondo Europeo Agricola De Desarrollo Rural (Feader);7-9-3-00;Programa De Desarrollo Rural; 7453000,0; 0,0; 7453000,0; 7576144,06; 7576144,06

@@ -64,7 +64,7 @@ class LaRiojaBudgetLoader(SimpleBudgetLoader):
         item_number = full_ec_code[-2:]
 
         # Description
-        description = line[mapper.description].decode('latin-1')
+        description = line[mapper.description]
         if description == 'X':
             description = None  # Leave it empty so it can be populated with the economic category
 
