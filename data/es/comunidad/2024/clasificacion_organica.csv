@@ -1,0 +1,88 @@
+#Institución;Sección;Nombre
+00;;;Gobierno de La Rioja
+00;00;0;Gobierno de La Rioja
+#
+01;;;Parlamento
+02;;;Defensor Del Pueblo
+03;;;Consejo Consultivo De La Rioja
+05;;;Agricultura, Ganadería, Mundo Rural Y Medio Ambiente
+06;;;Salud Y Políticas Sociales
+07;;;Cultura, Turismo, Deporte Y Juventud
+08;;;Educación Y Empleo
+09;;;Política Local, Infraestructuras Y Lucha Contra La Despoblación
+11;;;Deuda Pública
+12;;;Hacienda, Gobernanza Pública, Sociedad Digital Y Portavocía Del Gobierno
+13;;;Igualdad, Participación Y Agenda 2030
+15;;;Servicio Riojano De Salud
+17;;;Instituto De Estudios Riojanos
+19;;;Economía, Innovación, Empresa Y Trabajo Autónomo
+20;;;Servicios Sociales Y Gobernanza Pública
+
+01;01;0;Parlamento
+02;01;0;Defensor Del Pueblo
+03;01;0;Consejo Consultivo De La Rioja
+05;01;0;Secretaría General Técnica
+05;02;0;Dirección General De Agricultura Y Ganadería
+05;03;0;Dirección General De Desarrollo Rural
+05;04;0;Dirección General De Política Territorial, Urbanismo Y Vivienda
+05;05;0;Dirección General De Calidad Ambiental, Cambio Climático Y Agua
+05;06;0;Dirección General De Medio Natural Y Paisaje
+06;00;0;Viceconsejería De Salud Y Políticas Sociosanitarias
+06;01;0;Secretaría General Técnica
+06;02;0;Dirección General De Justicia E Interior
+06;03;0;Dirección General De Salud Pública, Consumo Y Cuidados
+06;04;0;Dirección General De Prestaciones Y Farmacia
+06;05;0;Direccion General De Emergencias Y Proteccion Civil
+06;06;0;Dirección General De Dependencia, Discapacidad Y Mayores
+06;07;0;Dirección General De Servicios Sociales E Igualdad
+07;01;0;Secretaría General Técnica
+07;02;0;Dirección General De Cultura
+07;03;0;Dirección General De Turismo Y Promoción Territorial
+07;04;0;Dirección General De Deporte Y Juventud
+08;00;0;Viceconsejería De Educación, Universidades Y Formación Profesional
+08;01;0;Secretaría General Técnica
+08;02;0;Dirección General De Cultura
+08;03;0;Dirección General De Deporte
+08;04;0;Dirección General De Gestion Educativa
+08;05;0;Dirección General De Formación Profesional
+08;06;0;Instituto Riojano De La Juventud
+08;07;0;Direccion General De Innovacion Y Ordenación Educativa
+08;08;0;Dirección General De Empleo
+09;01;0;Secretaría General Técnica
+09;02;0;Direccion General De Infraestructuras
+09;03;0;Dirección General De Política Local Y Lucha Contra La Despoblación
+09;04;0;Dirección General De Urbanismo Y Vivienda
+09;06;0;Dirección General De Calidad Ambiental Y Recursos Hídricos
+09;07;0;Dirección General De Biodiversidad
+09;08;0;Dirección General De Transición Energética Y Cambio Climático
+11;01;0;Deuda Pública
+12;01;0;Secretaría General Técnica
+12;02;0;Dirección General De Control Presupuestario
+12;03;0;Intervención General
+12;04;0;Dirección General De Tributos
+12;05;0;Dirección General De Fondos Y Relaciones Con La Unión Europea
+12;08;0;D.G. De Servicios Jurídicos
+12;09;0;Dirección General De Función Pública
+12;10;0;Dirección General Para La Sociedad Digital
+12;12;0;Oficina Del Presidente
+13;01;0;Secretaría General Técnica
+13;02;0;Dirección General De Participación Ciudadana Y Derechos Humanos
+13;03;0;Dirección General De Cooperación Y Agenda 2030
+13;04;0;D.G. De Igualdad
+13;05;0;D.G De Transparencia Y Buen Gobierno
+15;01;0;Complejo Hospitalario Y 061
+15;02;0;Centros De Salud
+15;03;0;Centro Asistencial De Albelda
+15;04;0;Gerencia Servicio Riojano De Salud
+17;01;0;Gerencia Del Instituto De Estudios Riojanos
+19;01;0;Secretaría General Técnica
+19;03;0;Dirección General De Empresa, Energías E Internacionalización
+19;04;0;Dirección General De Universidad Y Política Científica
+19;05;0;Dirección General De Empleo,Diálogo Social Y Relaciones Laborales
+19;07;0;Dirección General De Turismo
+19;08;0;Dirección General Para El Avance Digital
+20;01;0;Secretaría General Técnica
+20;02;0;D.G. De Justicia E Interior
+20;04;0;Dirección General De Dependencia, Discapacidad Y Mayores
+20;05;0;Dirección General De Servicios Sociales
+20;06;0;D.G. Política Local
