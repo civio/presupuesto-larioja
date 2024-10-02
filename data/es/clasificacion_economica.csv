@@ -56,6 +56,7 @@ I;5;2;;Intereses de depósitos
 I;5;4;;Renta de bienes inmuebles
 I;5;5;;Productos, concesiones y aprovechamientos especiales
 I;5;9;;Otros ingresos patrimoniales
+I;6;0;;De terrenos
 I;6;8;;Reintegros Por Operaciones de Capital
 I;7;0;;De la Administración del Estado
 I;7;1;;De organismos autónomos de la Administración General Del Estado
@@ -202,6 +203,7 @@ I;5;4;9;Otras Rentas
 I;5;5;0;Concesiones Administrativas
 I;5;5;1;Aprovechamientos Especiales
 I;5;9;9;Otros Ingresos las imoniales
+I;6;0;1;Venta de Fincas Rústicas
 I;6;1;9;Venta de Otras Inversiones Reales
 I;6;8;1;Del Presupuesto Corriente
 I;7;0;1;De Departamentos Ministeriales
